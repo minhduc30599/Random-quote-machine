@@ -1,5 +1,5 @@
 # Random-quote-machine
- Single page dispays quotes 
+ Single page dispays quotes with using ReactJS
 
 # Getting Started with Create React App
 
