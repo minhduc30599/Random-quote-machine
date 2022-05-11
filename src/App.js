@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {Component} from 'react';
 import quotes from './quotesDB';
 import colors from './colorsDB';
 import '../node_modules/font-awesome/css/font-awesome.min.css';
