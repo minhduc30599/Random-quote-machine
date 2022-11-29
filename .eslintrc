@@ -1,0 +1,51 @@
+{
+    "root": true,
+    "parser": "@typescript-eslint/parser",
+    "plugins": [
+        "@typescript-eslint",
+        "react"
+    ],
+    "extends": [
+        "plugin:react/recommended",
+        "eslint:recommended",
+        "plugin:@typescript-eslint/eslint-recommended",
+        "plugin:@typescript-eslint/recommended"
+    ],
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        }
+    },
+    "rules": {
+        "eol-last": [
+            2,
+            "always"
+        ],
+        "max-len": [
+            2,
+            {
+                "code": 300
+            }
+        ],
+        "jsx-quotes": [
+            2,
+            "prefer-single"
+        ],
+        "no-multi-spaces": 2,
+        "indent": [
+            2,
+            2,
+            {
+                "SwitchCase": 1,
+                "offsetTernaryExpressions": true
+            }
+        ],
+        "no-trailing-spaces": 2,
+        "no-multiple-empty-lines": [
+            2,
+            {
+                "max": 1
+            }
+        ]
+    }
+}
