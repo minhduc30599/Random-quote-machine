@@ -1,6 +1,6 @@
 {
-  "short_name": "Random quote machine",
-  "name": "Random quote machine ReactJS",
+  "short_name": "React App",
+  "name": "Create React App Sample",
   "icons": [
     {
       "src": "favicon.ico",
